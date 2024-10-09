@@ -1,5 +1,5 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-h1{
+body{
   background-color: #000000;
 }
 #content{
