@@ -26,6 +26,12 @@ h1 {
   background-color: rgb(37, 37, 37)         ;
 }
 
+.cat-photo {
+  margin: 10px;
+  width: 200px;
+}
+
+
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
