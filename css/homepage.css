@@ -1,18 +1,6 @@
 /* this css file will only style the homepage of our site */
 /* Here we can set styles for this lab page that we don't want to effect others pages */
-body{
-  background-color: #000000;
-}
-#content{
-  background-color: rgb(37, 37, 37)         ;
-}
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #000000;
-    background-color: #570909;
-  }
+
 .cat-photo {
   margin: 10px;
   max-width: 500px;
