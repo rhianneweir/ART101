@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - sudoku
+// Author: Rhianne Weir
+// Date: 10-17-24
 
 // Constants
 
@@ -15,7 +15,8 @@ function myFunction(param1, param2) {
 function main() {
   console.log("Main function started.");
   // the code that makes everything happen
-}
+  //
+} 
 
 // let's get this party started
 main();
