@@ -1,4 +1,4 @@
-// index.js - purpose and description here
+// index.js - variables and data types
 // Author: Rhianne Weir
 // Date: 10-21-24
 
@@ -16,16 +16,16 @@ age = currentYear - year
 function myFunction(param1, param2) {
   // some code here
   // return results;
+  
+}
+
+function main() {
+  console.log("Main function started.");
   document.writeln("Make: " + make + "<br>");
   document.writeln("Model: " + model + "<br>");
   document.writeln("Color: " + color + "<br>");
   document.writeln("Year: " + year + "<br>");
   document.writeln("Age: " + age + " years<br>");
-}
-
-function main() {
-  console.log("Main function started.");
-  
   
   // the code that makes everything happen
 }
