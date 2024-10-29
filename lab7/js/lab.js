@@ -8,7 +8,7 @@
 
 function nameSort() {
   let userName = prompt("Enter your name here:");
-  let sort = userName.split("").sort().join();
+  let sort = userName.split("").sort().join("");
   return sort;
 }
 
