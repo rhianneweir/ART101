@@ -25,11 +25,10 @@
 //     JSON.stringify(a, null, '\t'), "</pre>");
 // }
 
-function nameSort() {
+function spookify() {
   let userName = prompt("Enter your name to get spooky:");
- // var sort = userName.toLowerCase().split('').sort().join('');
- const spookArray = ["scary ", "creepy "];
- const ran = Math.floor(Math.random() * myArray.length);
+ const spookArray = ["spooky ", "scary ", "creepy "];
+ const ran = Math.floor(Math.random() * spookArray.length);
  const plz = spookArray[ran] + userName; 
   return  plz;
 }
@@ -37,7 +36,7 @@ function nameSort() {
 function main() {
   console.log("Main function started.");
   // the code that makes everything happen
- let a = nameSort(); 
+ let a = spookify(); 
  
   document.writeln("Your sorted name: <pre>", 
     JSON.stringify(a, null, '\t'), "</pre>");
