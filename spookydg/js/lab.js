@@ -26,9 +26,9 @@
 // }
 
 function nameSort() {
-  let userName = prompt("Enter your name here:");
-  var sort = userName.toLowerCase().split('').sort().join('');
-  return sort;
+  let userName = prompt("Enter your name to get spooky:");
+ // var sort = userName.toLowerCase().split('').sort().join('');
+  return "spooky " + userName;
 }
 
 function main() {
