@@ -13,7 +13,7 @@ function spookify() {
   }
   var nameArray = ["scary ", "spooky ", "creepy "];
 
-  return nameArray[Math.random(0,2)] + userName ;
+  return nameArray[Math.floor(Math.random()* 4)] + userName;
 }
 
 function main() {
