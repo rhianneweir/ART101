@@ -28,7 +28,10 @@
 function nameSort() {
   let userName = prompt("Enter your name to get spooky:");
  // var sort = userName.toLowerCase().split('').sort().join('');
-  return "spooky " + userName;
+ const spookArray = ["spooky", "scary", "creepy"];
+ const ran = Math.floor(Math.random() * myArray.length);
+ const plz = spookArray[ran]; 
+  return plz + userName;
 }
 
 function main() {
