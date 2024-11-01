@@ -3,7 +3,7 @@
 // Date: 10-28-24
 
 // Constants
-const nums = [2, 5, 10, 15];
+
 // Functions
 
 function addingStuff(x) {
@@ -16,6 +16,7 @@ function main() {
   console.log("Main function started.");
   //let res = addingStuff(2);
   let xx = squared(3);
+  const nums = [2, 5, 10, 15];
  let res = nums.map(addingStuff);
   document.writeln("Result: <pre>", 
     JSON.stringify(res, null, '\t'), "</pre>");
