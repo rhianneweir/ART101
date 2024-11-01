@@ -3,22 +3,22 @@
 // Date: 10-28-24
 
 // Constants
-
+const nums = [2, 5, 10, 15];
 // Functions
 
-function nameSort() {
-  let userName = prompt("Enter your name here:");
-  var sort = userName.toLowerCase().split('').sort().join('');
-  return sort;
+function addingStuff(x) {
+  return x+x ;
 }
-
+function squared(x){
+  return x*x;
+}
 function main() {
   console.log("Main function started.");
-  // the code that makes everything happen
- let a = nameSort(); 
+  let res = addingStuff(2);
+  let xx = squared(3);
  
   document.writeln("Your sorted name: <pre>", 
-    JSON.stringify(a, null, '\t'), "</pre>");
+    JSON.stringify(res, null, '\t'), "</pre>");
 }
 
 // let's get this party started

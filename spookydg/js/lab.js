@@ -27,11 +27,19 @@
 
 function spookify() {
   let userName = prompt("Enter your name to get spooky:");
+  let nah = "Andres";
+    if(userName.localeCompare(nah, undefined, { sensitivity: 'base' }) === 0) {
+  return userName;
+} else {
+
  const spookArray = ["spooky ", "scary ", "creepy "];
  const ran = Math.floor(Math.random() * spookArray.length);
  const plz = spookArray[ran] + userName; 
   return  plz;
 }
+}
+
+
 
 function main() {
   console.log("Main function started.");
