@@ -38,7 +38,7 @@ function main() {
   // the code that makes everything happen
  let a = spookify(); 
  
-  document.writeln("Your sorted name: <pre>", 
+  document.writeln("Your spooky name: <pre>", 
     JSON.stringify(a, null, '\t'), "</pre>");
 }
 
