@@ -17,7 +17,7 @@ function main() {
   let res = addingStuff(2);
   let xx = squared(3);
  
-  document.writeln("Your sorted name: <pre>", 
+  document.writeln("Result: <pre>", 
     JSON.stringify(res, null, '\t'), "</pre>");
 }
 
