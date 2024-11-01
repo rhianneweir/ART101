@@ -14,9 +14,9 @@ function squared(x){
 }
 function main() {
   console.log("Main function started.");
-  let res = addingStuff(2);
+  //let res = addingStuff(2);
   let xx = squared(3);
- 
+ let res = nums.map(addingStuff);
   document.writeln("Result: <pre>", 
     JSON.stringify(res, null, '\t'), "</pre>");
 }
