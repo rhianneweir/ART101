@@ -5,19 +5,18 @@
 // Constants
 
 // Functions
+function idkyet(){
 
-function addingStuff(x) {
-  return x+x ;
 }
 
 function main() {
-  console.log("Main function started.");
-  //let res = addingStuff(2);
- 
-  var nums = [2, 5, 10, 15];
- let res = nums.map(addingStuff);
-  document.writeln("Result: <pre>", 
-    JSON.stringify(res, null, '\t'), "</pre>");
+  $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#challenge").toggleClass("special");
+});
+
 }
 
 // let's get this party started
