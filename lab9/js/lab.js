@@ -17,19 +17,19 @@ $("#Challenge").append("<button id='button-challenge'>Make Special</button>");
      // now add (or subtract) the "special" class to the section
      $("#Challenge").toggleClass("special");
 });  
-$("#Problems").append("<button id='button-challenge'>Make Special</button>");
+$("#Problems").append("<button id='button-problems'>Make Special</button>");
 
 // add a click listener to the challenge button
-$("#button-challenge").click(function(){
+$("#button-problems").click(function(){
 
   // now add (or subtract) the "special" class to the section
   $("#Problems").toggleClass("special");
 }); 
-$("#Results").append("<button id='button-challenge'>Make Special</button>");
+$("#Results").append("<button id='button-results'>Make Special</button>");
 
 // add a click listener to the challenge button
-$("#button-challenge").click(function(){
-  
+$("#button-results").click(function(){
+
   // now add (or subtract) the "special" class to the section
   $("#Results").toggleClass("special");
 });  
