@@ -22,9 +22,10 @@ function generateRandomText() {
 }
 
 function main() {
+  const newText = generateRandomText();
   // click listener for button
 $("#swag").click(function(){
-  const newText = generateRandomText();
+  
   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
 
