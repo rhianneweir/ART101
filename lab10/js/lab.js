@@ -25,8 +25,9 @@ function main() {
   // click listener for button
 $("#swag").click(function(){
   const newText = generateRandomText();
+  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
-$("#output").append('<div class="text"><p>' + newText + '</p></div>');
+
 }
 
 // let's get this party started
