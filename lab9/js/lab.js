@@ -7,7 +7,7 @@
 // Functions
 
 
-function main() {
+
 // add button to challenge section
 $("#Challenge").append("<button id='button-challenge'>Make Special</button>");
 
@@ -35,7 +35,4 @@ $("#button-results").click(function(){
 });  
 
 
-}
 
-// let's get this party started
-main();
