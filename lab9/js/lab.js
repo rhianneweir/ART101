@@ -1,4 +1,4 @@
-// index.js - FUNCTIONS
+// index.js - LIBRARIES AND JQUERY
 // Author: Rhianne Weir
 // Date: 10-28-24
 
