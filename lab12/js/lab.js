@@ -31,9 +31,6 @@ var myButton = document.getElementById("button");
       var house = sortingHat(name);
       newText = "<p>The sorting hat has sorted you into" + house + " ! </p>";
       document.getElementById("output").innerHTML=newText; 
-
-  
-  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
   })
 
 
