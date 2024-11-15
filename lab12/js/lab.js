@@ -29,7 +29,7 @@ var myButton = document.getElementById("button");
   myButton.addEventListener("click", function(){
     var name = document.getElementById("input").value;
       var house = sortingHat(name);
-      newText = "<p>The sorting hat has sorted you into" + house + " ! </p>";
+      newText = "<p>The sorting hat has sorted you into " + house + " ! </p>";
       document.getElementById("output").innerHTML=newText; 
   })
 
