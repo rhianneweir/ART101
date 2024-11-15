@@ -10,13 +10,25 @@
 
 // Functions
 
-
+function sortingHat(str){
+let length = str.length;
+let num = length % 4;
+if(num == 0){
+  return "Gryffindor";
+}else if(num == 1){
+  return "Ravenclaw";
+}else if(num == 2){
+  return "Hufflepuff";
+}else{
+  return "Slytherin";
+}
+}
 
 
 function main() {
-  const newText = generateRandomText();
+  const newText = sortingHat();
   // click listener for button
-$("#swag").click(function(){
+$("#button").click(function(){
   
   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
