@@ -1,4 +1,4 @@
-// index.js - BUTTONS
+// index.js - CONDITIONALS
 // Author: Rhianne Weir
 // Date: 10-28-24
 /*
