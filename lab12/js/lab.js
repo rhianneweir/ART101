@@ -25,15 +25,21 @@ if(num == 0){
 }
 
 
-function main() {
-  const newText = sortingHat();
-  // click listener for button
+var myButton = document.getElementById("button");
+  myButton.addEventListener("click", function(){
+    var name = document.getElementById("input").value;
+      var house = sortingHat(name);
+      newText = "<p>The sorting hat has sorted you into" + house + " ! </p>";
+      document.getElementById("output").innerHTML=newText; 
+
+  })
+
+
+
+  
 $("#button").click(function(){
   
   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
 
-}
 
-// let's get this party started
-main();
