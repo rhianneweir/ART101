@@ -18,3 +18,9 @@
     font-family: sans-serif;
     font-size: 0.8em;
   }
+
+  .output{
+    font-size: 1em;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }

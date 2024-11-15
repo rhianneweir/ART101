@@ -37,9 +37,9 @@ var myButton = document.getElementById("button");
 
 
   
-$("#button").click(function(){
+// $("#button").click(function(){
   
-  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-});
+//   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+// });
 
 
