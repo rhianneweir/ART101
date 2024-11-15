@@ -32,14 +32,13 @@ var myButton = document.getElementById("button");
       newText = "<p>The sorting hat has sorted you into" + house + " ! </p>";
       document.getElementById("output").innerHTML=newText; 
 
+  
+  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
   })
 
 
 
   
-// $("#button").click(function(){
-  
-//   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-// });
+
 
 
