@@ -11,8 +11,8 @@
 // Functions
 
 function sortingHat(str){
-let length = str.length;
-let num = length % 4;
+let lengthh = str.length;
+let num = lengthh % 4;
 if(num == 0){
   return "Gryffindor";
 }else if(num == 1){
