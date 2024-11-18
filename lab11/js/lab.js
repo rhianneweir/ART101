@@ -22,7 +22,7 @@ const userName = $("#user-name").val();
 
   const userNameSorted = sortString(userName);
   // click listener for button
-$("#swag").click(function(){
+$("#submit").click(function(){
   
   $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
