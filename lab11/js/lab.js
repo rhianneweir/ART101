@@ -20,10 +20,11 @@ function sortString(inputString) {
 
 const userName = $("#user-name").val();
 
-  const userNameSorted = sortString(userName);
+  // const userNameSorted = sortString(userName);
   // click listener for button
 $("#submit").click(function(){
   
+  const userNameSorted = sortString(userName);
   $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
