@@ -17,6 +17,7 @@ function sortString(inputString) {
 
 
 // get value of input field
+
 const userName = $("#user-name").val();
 
   const userNameSorted = sortString(userName);
