@@ -18,12 +18,12 @@ function sortString(inputString) {
 
 // get value of input field
 
-const userName = $("#user-name").val();
 
   // const userNameSorted = sortString(userName);
   // click listener for button
 $("#submit").click(function(){
   
+const userName = $("#user-name").val();
   const userNameSorted = sortString(userName);
   $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
