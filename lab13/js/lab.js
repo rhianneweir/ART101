@@ -30,8 +30,9 @@ function fuzzBuzz(){
     }else{
       oneLongString = " " + i;
     }
+    $("#output").html(oneLongString);
   }
-  $("#output").html(oneLongString);
+
 }
 
 fuzzBuzz();
