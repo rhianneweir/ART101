@@ -20,13 +20,13 @@ function fuzzBuzz(){
     } else if (i % 21 == 0) {
       oneLongString += " FizzBoom<br>";
     } else if(i%15 == 0){
-      oneLongString = " FizzBuzz";
+      oneLongString = " FizzBuzz<br>";
     }else if(i%7 == 0){
-      oneLongString = " Boom";
+      oneLongString = " Boom<br>";
     }else if(i%5 == 0){
-      oneLongString = " Buzz";
+      oneLongString = " Buzz<br>";
     }else if(i%3 == 0){
-      oneLongString = " Fizz";;
+      oneLongString = " Fizz<br>";;
     }else{
       oneLongString = " " + i;
     }
