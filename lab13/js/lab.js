@@ -26,7 +26,9 @@ function fuzzBuzz(){
     }else if(i%5 == 0){
       oneLongString += " Buzz";
     }else if(i%3 == 0){
-      oneLongString += " Fizz";;
+      oneLongString += " Fizz";
+    }else if(i == 1){
+      oneLongString += "1";
     }else{
       oneLongString += " " + i;
     }
