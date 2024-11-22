@@ -11,7 +11,7 @@
 // Functions
 
 function fuzzBuzz(){
-  let oneLongString;
+  let oneLongString = "";
   for (i = 1; i <= 200; i++) {
     if (i % 105 == 0) {
       oneLongString += " FizzBuzzBoom!";
