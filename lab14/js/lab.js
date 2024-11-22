@@ -14,19 +14,19 @@ function fuzzBuzz(){
   let oneLongString;
   for (i = 1; i <= 200; i++) {
     if (i % 105 == 0) {
-      oneLongString += " FizzBuzzBoom!";
+      oneLongString += " FizzBuzzBoom!<br>";
     } else if (i % 35 == 0) {
-      oneLongString += " BuzzBoom";
+      oneLongString += " BuzzBoom<br>";
     } else if (i % 21 == 0) {
-      oneLongString += " FizzBoom";
+      oneLongString += " FizzBoom<br>";
     } else if(i%15 == 0){
-      oneLongString += " FizzBuzz";
+      oneLongString += " FizzBuzz<br>";
     }else if(i%7 == 0){
-      oneLongString += " Boom";
+      oneLongString += " Boom<br>";
     }else if(i%5 == 0){
-      oneLongString += " Buzz";
+      oneLongString += " Buzz<br>";
     }else if(i%3 == 0){
-      oneLongString += " Fizz";;
+      oneLongString += " Fizz<br>";;
     }else{
       oneLongString += " " + i;
     }
