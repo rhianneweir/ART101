@@ -86,7 +86,7 @@ function idk() {
 
 })
 
-$("#submit").click(function(){
+$("#activate").click(function(){
 $("#output").append('<div class="text"><p>' + idk() + '</p></div>')
 
  } );
