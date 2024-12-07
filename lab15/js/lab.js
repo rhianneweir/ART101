@@ -84,6 +84,8 @@ function idk() {
   
 
 
-}
+})
 
-  )}
+$("#output").append('<div class="text"><p>' + idk() + '</p></div>')
+
+  };
