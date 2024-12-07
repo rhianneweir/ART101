@@ -24,7 +24,8 @@ $.ajax({
         "url": "https://pokeapi.co/api/v2/ability/1/"
       }
     ],
-  
+  }
+  ,
   // Whether this is a POST or GET request
   type: "GET",
   // The type of data we expect back
@@ -41,8 +42,9 @@ $.ajax({
       // do stuff
       console.log("Error:", textStatus, errorThrown);
   }
-})
-}
+)
+},
+
 
 $("#activate").click(function(){
   
