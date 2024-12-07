@@ -9,7 +9,7 @@
 // Constants
 
 // Functions
-
+function idk(){
 $.ajax({
   // The URL for the request (from the api docs)
   url:"https://pokeapi.co/api/v2/ability/1/",
@@ -42,11 +42,14 @@ $.ajax({
       console.log("Error:", textStatus, errorThrown);
   }
 })
+}
 
-var myButton = document.getElementById("activate");
-  myButton.addEventListener("activate", function(){
-      document.getElementById("output")
-  })
+$("#activate").click(function(){
+  
+    const smth = idk();
+    $("#output").append('<div class="text"><p>' + smth + '</p></div>');
+  });
+  
 
 
 
