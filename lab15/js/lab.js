@@ -9,53 +9,81 @@
 // Constants
 
 // Functions
-function idk(){
-$.ajax({
-  // The URL for the request (from the api docs)
-  url:"https://pokeapi.co/api/v2/ability/1/",
-  // The data to send (will be converted to a query string)
-  data: {
-    "count": 248,
-    "next": "https://pokeapi.co/api/v2/ability/?limit=20&offset=20",
-    "previous": null,
-    "results": [
-      {
-        "name": "stench",
-        "url": "https://pokeapi.co/api/v2/ability/1/"
-      }
-    ],
-  }
-  ,
+function idk() {
+  $.ajax({
+    // The URL for the request (from the api docs)
+    url: "https://pokeapi.co/api/v2/ability/1/",
+    // The data to send (will be converted to a query string)
+    data: {
+      count: 248,
+      next: "https://pokeapi.co/api/v2/ability/?limit=20&offset=20",
+      previous: null,
+      results: [
+        {
+          name: "stench",
+          url:"https://pokeapi.co/api/v2/ability/1/"
+        }
+      ]
+    },
+    
+      
+    
+
+      
+
+  
   // Whether this is a POST or GET request
-  type: "GET",
+  type:"GET",
+  
+      
+    
+
+      
+
+  
   // The type of data we expect back
-  dataType: "json",
+  dataType:"json",
+  
+
+      
+
+  
   // What do we do when the api call is successful
-  //   all the action goes in here
-  success: function(data) {
-      // do stuff
-      console.log(data);
-  },
-},
-  // What we do if the api call fails
-  error: function (jqXHR, textStatus, errorThrown) { 
-      // do stuff
-      console.log("Error:", textStatus, errorThrown);
-  }
-)
-},
-
-
-$("#activate").click(function(){
   
-    const smth = idk();
-    $("#output").append('<div class="text"><p>' + smth + '</p></div>');
-  });
+        
+    
+
+      
   
 
+  
+  
+        
+    
 
+      
+  
+  
+    
+  
+  
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+
+  
 
   
 
 
+}
 
+  )}
