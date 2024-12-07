@@ -14,7 +14,7 @@ $.ajax({
   // The URL for the request (from the api docs)
   url:"https://pokeapi.co/api/v2/ability/1/",
   // The data to send (will be converted to a query string)
-  
+  data: {
     "count": 248,
     "next": "https://pokeapi.co/api/v2/ability/?limit=20&offset=20",
     "previous": null,
@@ -24,7 +24,7 @@ $.ajax({
         "url": "https://pokeapi.co/api/v2/ability/1/"
       }
     ],
-
+  
   // Whether this is a POST or GET request
   type: "GET",
   // The type of data we expect back
@@ -35,6 +35,7 @@ $.ajax({
       // do stuff
       console.log(data);
   },
+},
   // What we do if the api call fails
   error: function (jqXHR, textStatus, errorThrown) { 
       // do stuff
@@ -42,7 +43,10 @@ $.ajax({
   }
 })
 
-
+var myButton = document.getElementById("activate");
+  myButton.addEventListener("click", function(){
+      document.getElementById("output")
+  })
 
 
 
