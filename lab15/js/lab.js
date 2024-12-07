@@ -44,7 +44,7 @@ $.ajax({
 })
 
 var myButton = document.getElementById("activate");
-  myButton.addEventListener("click", function(){
+  myButton.addEventListener("activate", function(){
       document.getElementById("output")
   })
 
