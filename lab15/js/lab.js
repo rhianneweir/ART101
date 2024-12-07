@@ -86,6 +86,9 @@ function idk() {
 
 })
 
+$("#submit").click(function(){
 $("#output").append('<div class="text"><p>' + idk() + '</p></div>')
 
-  };
+ } );
+ 
+}
