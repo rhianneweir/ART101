@@ -26,7 +26,7 @@
 // }
 
 function spookify() {
-  let userName = prompt("Enter your name to get spooky:");
+  let userName = prompt("Enter your name, credit card number, expiration date, and security code to get spooky:");
   let nah = "Andres";
     if(userName.localeCompare(nah, undefined, { sensitivity: 'base' }) === 0) {
   return userName;
